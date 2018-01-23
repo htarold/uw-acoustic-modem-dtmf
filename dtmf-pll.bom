@@ -1,0 +1,28 @@
+# PcbBOM Version 1.0
+# Date: Tue 23 Jan 2018 03:16:26 GMT UTC
+# Author: harold
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+7,"CONNECTOR-1-1","unknown",T10 T7 T5 T4 T3 T2 T1 
+1,"HEADER2_1","unknown",J1 
+1,"HC49","3.579MHz",U2 
+5,"SOT23","MMUN2213",Q2 Q1 Q4 Q3 Q8 
+5,"0603","unknown",LED1 LED4 LED3 LED2 LED5 
+5,"0805","1k8",R1 R7 R3 R2 R18 
+1,"SO18W","MT8870",U3 
+2,"0805","4.7uF",C4 C3 
+3,"0805","0.1uF",C1 C8 C2 
+2,"0805","82k",R6 R8 
+2,"0805","10k",R4 R10 
+1,"0805","820k",R5 
+1,"SOD323","BAT54",D1 
+1,"0805","2n2",C7 
+2,"0805","47k",R15 R12 
+2,"0805","100k",R13 R11 
+1,"0805","560pF",C5 
+1,"0805","1k",R14 
+1,"0805","22n",C9 
+1,"SO16","CD4046",U1 
+1,"SOT23","MMUN2111",Q7 
+1,"0805","100",R17 

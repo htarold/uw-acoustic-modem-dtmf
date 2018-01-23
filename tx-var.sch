@@ -1,0 +1,242 @@
+v 20130925 2
+C 40000 40000 0 0 0 title-A3.sym
+C 45600 48200 1 0 0 npn-4.sym
+{
+T 46200 48700 5 10 0 0 0 0 1
+device=NPN_TRANSISTOR
+T 46200 48800 5 10 1 1 0 0 1
+refdes=Q1
+T 45900 48600 5 10 1 1 0 0 1
+value=MMBT4401
+T 45600 48200 5 10 0 1 0 0 1
+footprint=SOT23
+}
+C 43400 43500 1 0 1 capacitor-v-1.sym
+{
+T 43200 44200 5 10 0 0 0 6 1
+device=CAPACITOR
+T 43000 44300 5 10 1 1 180 6 1
+refdes=C2
+T 43100 43800 5 10 1 1 180 6 1
+value=1uF
+T 43100 43700 5 10 0 1 0 6 1
+footprint=0805
+T 43200 44400 5 10 0 0 0 6 1
+symversion=0.1
+}
+N 44600 48700 45600 48700 4
+C 43700 48600 1 0 0 resistor-h-1.sym
+{
+T 44000 49000 5 10 0 0 0 0 1
+device=RESISTOR
+T 44200 48800 5 10 1 1 0 0 1
+refdes=R1
+T 43900 48800 5 10 1 1 0 0 1
+value=10k
+T 44000 48800 5 10 0 1 0 0 1
+footprint=0805
+}
+C 44100 47800 1 0 0 capacitor-v-1.sym
+{
+T 44300 48500 5 10 0 0 0 0 1
+device=CAPACITOR
+T 44500 48600 5 10 1 1 180 0 1
+refdes=C1
+T 44400 48100 5 10 1 1 180 0 1
+value=1uF
+T 44400 48000 5 10 0 1 0 0 1
+footprint=0805
+T 44300 48700 5 10 0 0 0 0 1
+symversion=0.1
+}
+C 44500 47500 1 0 0 gnd-1.sym
+N 51300 45000 51300 45400 4
+C 51200 43000 1 0 0 gnd-1.sym
+N 46100 48200 46800 48200 4
+C 51100 47300 1 0 0 vcc-1.sym
+N 48300 45200 48100 45200 4
+C 45900 49500 1 0 0 vbat-1.sym
+N 46100 49500 46100 49200 4
+C 47200 45100 1 0 0 terminal-1.sym
+{
+T 47510 45850 5 10 0 0 0 0 1
+device=terminal
+T 47510 45700 5 10 0 0 0 0 1
+footprint=CONNECTOR 1 1
+T 47450 45150 5 10 1 1 0 6 1
+refdes=T4
+}
+C 42800 48600 1 0 0 terminal-1.sym
+{
+T 43110 49350 5 10 0 0 0 0 1
+device=terminal
+T 43110 49200 5 10 0 0 0 0 1
+footprint=CONNECTOR 1 1
+T 43050 48650 5 10 1 1 0 6 1
+refdes=T1
+}
+C 42000 43400 1 0 0 terminal-1.sym
+{
+T 42310 44150 5 10 0 0 0 0 1
+device=terminal
+T 42310 44000 5 10 0 0 0 0 1
+footprint=CONNECTOR 1 1
+T 42250 43450 5 10 1 1 0 6 1
+refdes=T3
+}
+C 42000 44300 1 0 0 terminal-1.sym
+{
+T 42310 45050 5 10 0 0 0 0 1
+device=terminal
+T 42310 44900 5 10 0 0 0 0 1
+footprint=CONNECTOR 1 1
+T 42250 44350 5 10 1 1 0 6 1
+refdes=T2
+}
+C 42800 43200 1 0 0 gnd-1.sym
+C 42700 44400 1 0 0 vbat-1.sym
+C 52200 45100 1 0 1 terminal-1.sym
+{
+T 51890 45850 5 10 0 0 0 6 1
+device=terminal
+T 51890 45700 5 10 0 0 0 6 1
+footprint=CONNECTOR 1 1
+T 51950 45150 5 10 1 1 0 0 1
+refdes=T5
+}
+C 50800 46200 1 0 0 resistor-v-1.sym
+{
+T 51100 46600 5 10 0 0 0 0 1
+device=RESISTOR
+T 51100 46900 5 10 1 1 180 0 1
+refdes=R5
+T 51000 46600 5 10 1 1 180 0 1
+value=10R
+T 51100 46400 5 10 0 1 0 0 1
+footprint=0805
+}
+C 50800 43300 1 0 0 resistor-v-1.sym
+{
+T 51100 43700 5 10 0 0 0 0 1
+device=RESISTOR
+T 51100 44000 5 10 1 1 180 0 1
+refdes=R6
+T 51000 43700 5 10 1 1 180 0 1
+value=10R
+T 51100 43500 5 10 0 1 0 0 1
+footprint=0805
+}
+C 49700 43500 1 0 0 resistor-v-1.sym
+{
+T 50000 43900 5 10 0 0 0 0 1
+device=RESISTOR
+T 50000 44200 5 10 1 1 180 0 1
+refdes=R2
+T 49900 43900 5 10 1 1 180 0 1
+value=47k
+T 50000 43700 5 10 0 1 0 0 1
+footprint=0805
+}
+C 49700 46000 1 0 0 resistor-v-1.sym
+{
+T 50000 46400 5 10 0 0 0 0 1
+device=RESISTOR
+T 50000 46700 5 10 1 1 180 0 1
+refdes=R4
+T 49900 46400 5 10 1 1 180 0 1
+value=47k
+T 50000 46200 5 10 0 1 0 0 1
+footprint=0805
+}
+N 50800 46000 49200 46000 4
+N 49200 44400 50800 44400 4
+C 50100 43200 1 0 0 gnd-1.sym
+C 48300 44200 1 0 0 capacitor-h-1.sym
+{
+T 48500 44900 5 10 0 0 0 0 1
+device=CAPACITOR
+T 48800 44500 5 10 1 1 0 0 1
+refdes=C4
+T 48400 44500 5 10 1 1 0 0 1
+value=1uF
+T 48600 44400 5 10 0 1 0 0 1
+footprint=0805
+T 48500 45100 5 10 0 0 0 0 1
+symversion=0.1
+}
+C 48300 45800 1 0 0 capacitor-h-1.sym
+{
+T 48500 46500 5 10 0 0 0 0 1
+device=CAPACITOR
+T 48800 46100 5 10 1 1 0 0 1
+refdes=C3
+T 48400 46100 5 10 1 1 0 0 1
+value=1uF
+T 48600 46000 5 10 0 1 0 0 1
+footprint=0805
+T 48500 46700 5 10 0 0 0 0 1
+symversion=0.1
+}
+N 48300 46000 48300 44400 4
+C 50000 46900 1 0 0 vcc-1.sym
+C 45600 47300 1 0 0 resistor-v-1.sym
+{
+T 45900 47700 5 10 0 0 0 0 1
+device=RESISTOR
+T 45900 48000 5 10 1 1 180 0 1
+refdes=R3
+T 45800 47700 5 10 1 1 180 0 1
+value=1k
+T 45900 47500 5 10 0 1 0 0 1
+footprint=0805
+}
+C 46000 47000 1 0 0 gnd-1.sym
+C 47100 47300 1 0 1 capacitor-v-1.sym
+{
+T 46900 48000 5 10 0 0 0 6 1
+device=CAPACITOR
+T 46700 48100 5 10 1 1 180 6 1
+refdes=C5
+T 46800 47600 5 10 1 1 180 6 1
+value=1uF
+T 46800 47500 5 10 0 1 0 6 1
+footprint=0805
+T 46900 48200 5 10 0 0 0 6 1
+symversion=0.1
+}
+C 46500 47000 1 0 0 gnd-1.sym
+C 47700 48100 1 0 1 terminal-1.sym
+{
+T 47390 48850 5 10 0 0 0 6 1
+device=terminal
+T 47390 48700 5 10 0 0 0 6 1
+footprint=CONNECTOR 1 1
+T 47450 48150 5 10 1 1 0 0 1
+refdes=T6
+}
+C 46600 48200 1 0 0 vcc-1.sym
+C 50800 46200 1 180 1 pmos-sot23-4.sym
+{
+T 51400 45700 5 10 0 0 180 6 1
+device=PMOS_TRANSISTOR
+T 51500 45600 5 10 1 1 180 6 1
+refdes=Q2
+T 51300 45900 5 10 1 1 180 6 1
+value=Si2302
+}
+C 50800 44200 1 0 0 nmos-4.sym
+{
+T 51400 44700 5 10 0 0 0 0 1
+device=NMOS_TRANSISTOR
+T 51500 44800 5 10 0 1 0 0 1
+footprint=SOT23
+T 51500 44800 5 10 1 1 0 0 1
+refdes=Q3
+T 51200 44500 5 10 1 1 0 0 1
+value=Si2301
+}
+N 51300 47100 51300 47300 4
+T 46000 44900 9 10 1 0 0 0 1
+Square wave input/output
+T 42900 49200 9 10 1 0 0 0 1
+PWM sets voltage level (<5V)
